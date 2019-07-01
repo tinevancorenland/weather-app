@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Shadows+Into+Light&display=swap");
+h1,
+h2,
+h3,
+p,
+span {
+  margin: 0;
+}
+
+h2 {
+  font-family: "oswald";
+  font-size: 30px;
+}
+
+p {
+  font-family: "oswald";
+}
+
+#pickCity {
+  text-align: center;
+  padding: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+h3 {
+  font-family: "shadows into light";
+  font-size: 26px;
+}
+
+.weather {
+  width: 90%;
+  height: 60vh;
+  border: 1px solid black;
+  margin: 5px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 20% 80%;
+      grid-template-rows: 20% 80%;
+  text-align: center;
+  padding: 25px 5px;
+}
+
+.degrees {
+  font-family: "oswald";
+  font-size: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 450px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 20% 20% 20% 20%;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-column-gap: 5px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
