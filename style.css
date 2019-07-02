@@ -12,7 +12,8 @@ h2 {
   font-size: 30px;
 }
 
-p {
+p,
+button {
   font-family: "oswald";
 }
 
