@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Weather forecast</title>
 </head>
 
@@ -13,86 +14,97 @@
     <div id="pickCity">
         <h2>I would like the weatherforecast for this city:</h2>
         <br>
-        <input type="text" id="input-text">
-        <button id="button">Submit</button>
+        <input type="text" class="form-control mb-2" id="input-text">
+        <button class="btn btn-primary" id="button">Submit</button>
     </div>
 
     <div class="container" id="cardcontainer">
 
         <div class="weather">
             <div class="top">
-                <h3 class="day" id="weekdayOne"></h3>
+                <h3 class="day">day1</h3>
             </div>
             <div class="middle">
-                <img src="" alt="icon" id="iconDayOne" />
+                <img src="" alt="icon" class="icon" />
                 <div class="degrees">
-                    <h1 id="tempDayOne"></h1>
+                    <h1 class="temperature"></h1>
                     <span>&#176</span>
                 </div>
-                <h3 id="descriptionDayOne"></h3>
+                <h3 class="description"></h3>
             </div>
         </div>
 
         <div class="weather">
             <div class="top">
-                <h3 class="day" id="weekdayTwo"></h3>
+                <h3 class="day">day2</h3>
             </div>
             <div class="middle">
-                <img src="" alt="icon" id="iconDayTwo" />
+                <img src="" alt="icon" class="icon" />
                 <div class="degrees">
-                    <h1 id="tempDayTwo"></h1>
+                    <h1 class="temperature"></h1>
                     <span>&#176</span>
                 </div>
-                <h3 id="descriptionDayTwo"></h3>
+                <h3 class="description"></h3>
             </div>
         </div>
 
         <div class="weather">
             <div class="top">
-                <h3 class="day" id="weekdayThree"></h3>
+                <h3 class="day">day3</h3>
             </div>
             <div class="middle">
-                <img src="" alt="icon" id="iconDayThree" />
+                <img src="" alt="icon" class="icon" />
                 <div class="degrees">
-                    <h1 id="tempDayThree"></h1>
+                    <h1 class="temperature"></h1>
                     <span>&#176</span>
                 </div>
-                <h3 id="descriptionDayThree"></h3>
+                <h3 class="description"></h3>
             </div>
         </div>
 
         <div class="weather">
             <div class="top">
-                <h3 class="day" id="weekdayFour"></h3>
+                <h3 class="day">day4</h3>
             </div>
             <div class="middle">
-                <img src="" alt="icon" id="iconDayFour" />
+                <img src="" alt="icon" class="icon" />
                 <div class="degrees">
-                    <h1 id="tempDayFour"></h1>
+                    <h1 class="temperature"></h1>
                     <span>&#176</span>
                 </div>
-                <h3 id="descriptionDayFour"></h3>
+                <h3 class="description"></h3>
             </div>
         </div>
 
         <div class="weather">
             <div class="top">
-                <h3 class="day" id="weekdayFive"></h3>
+                <h3 class="day">day5</h3>
             </div>
             <div class="middle">
-                <img src="" alt="icon" id="iconDayFive" />
+                <img src="" alt="icon" class="icon" />
                 <div class="degrees">
-                    <h1 id="tempDayFive"></h1>
+                    <h1 class="temperature"></h1>
                     <span>&#176</span>
                 </div>
-                <h3 id="descriptionDayFive"></h3>
+                <h3 class="description"></h3>
             </div>
         </div>
-<p>&copy;A Swiggenland creation</p>
+
     </div>
+
+    <footer class="page-footer font-small blue">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://www.google.com"> AwesomeSauce Creations</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
     <!--container-->
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="script.js"></script>
+    <script src=" https://unpkg.com/axios/dist/axios.min.js "></script>
+    <script src="script.js "></script>
 </body>
 
 </html>

@@ -6,6 +6,7 @@ Raf and Tine created a weather app. This is an original Swiggenland creation.
 Not licenced, free for all use.
 
 **How to use?**
+
 Type in the name of the city of which you wish to know the weather.
 Dress accordingly, pack your bags and go to your place of choice.
 
