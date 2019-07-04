@@ -15,3 +15,5 @@ As of 6/7/2019, I will be found in the Ardèche. Hardworking Raf will be working
 In case you are loking for travel advice... Tokyo turns out to be tha place to be. Nantes (Fr) is a bit closer to Belgium and also very worthy of a visit. Contact us for more tips.
 
 Please do not forget to check the weather before going. You do not want to be standing in a thunderstorm, wearing your beachwear do ya?
+
+![oh the weather outside is weather](https://media.giphy.com/media/p45mW9QnaPBAc/giphy.gif)
