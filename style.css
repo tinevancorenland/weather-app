@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald|Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Shadows+Into+Light&display=swap");
+
 h1,
 h2,
 h3,
@@ -8,18 +9,19 @@ span {
 }
 
 h2 {
-  font-family: "oswald";
+  font-family: "playfair display";
   font-size: 30px;
 }
 
 p,
 button {
-  font-family: "oswald";
+  font-family: "playfair display";
 }
 
 #pickCity {
   text-align: center;
   padding: 10px;
+  color: black;
 }
 
 input {
@@ -34,27 +36,29 @@ h3 {
 
 .weather {
   width: 90%;
-  height: 60vh;
-  border: 1px solid black;
+  height: 40vh;
   margin: 5px auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 20% 80%;
-      grid-template-rows: 20% 80%;
+  grid-template-rows: 20% 80%;
   text-align: center;
   padding: 25px 5px;
+  color: black;
+  background-color: whitesmoke;
+  opacity: 0.8;
 }
 
 .degrees {
-  font-family: "oswald";
+  font-family: "playfair display";
   font-size: 20px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  grid-template-columns: auto auto;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 450px) {
@@ -62,8 +66,32 @@ h3 {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 20% 20% 20% 20% 20%;
-        grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     grid-column-gap: 5px;
   }
 }
+
+.container {
+  display: none;
+}
+
+#button {
+  background-color: royalblue;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+
 /*# sourceMappingURL=style.css.map */

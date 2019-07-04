@@ -11,6 +11,7 @@ span {
 h2 {
     font-family: "oswald";
     font-size: 30px;
+    color: whitesmoke;
 }
 
 p,
@@ -35,8 +36,7 @@ h3 {
 
 .weather {
     width: 90%;
-    height: 60vh;
-    border: 1px solid black;
+    height: 40vh;
     margin: 5px auto;
     display: grid;
     grid-template-rows: 20% 80%;
