@@ -7,7 +7,7 @@ const tempDay2 = document.getElementById("tempDayTwo");
 const tempDay3 = document.getElementById("tempDayThree");
 const tempDay4 = document.getElementById("tempDayFour");
 const tempDay5 = document.getElementById("tempDayFive");
-cardcontainer = document.getElementById("cardcontainer");
+const cardcontainer = document.getElementById("cardcontainer");
 const iconOne = document.getElementById("iconDayOne");
 const iconTwo = document.getElementById("iconDayTwo");
 const iconThree = document.getElementById("iconDayThree");
@@ -25,7 +25,7 @@ const keyup =
   "5c7a3ad73173f096501026c20378f643a7bf804bf3c2bbf6732986486c70f513";
 
 function getWeather() {
-  button[0].addEventListener("click", async function(e) {
+  button[0].addEventListener("click", async function (e) {
     cardcontainer.style.display = "grid";
     let city = input.value;
     let api = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&mode=json&APPID=${key}`;
